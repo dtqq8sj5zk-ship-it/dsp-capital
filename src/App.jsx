@@ -184,6 +184,15 @@ const DSPCapital = () => {
                   </button>
                 </div>
               </div>
+{/* Bitcoin Performance Chart */}
+<div className="mt-16 max-w-6xl mx-auto">
+  <img 
+    src="/images/bitcoin-returns.png" 
+    alt="Bitcoin Standard Era Return - Total performance comparison chart" 
+    className="w-full h-auto rounded-lg border border-orange-500/20 shadow-2xl"
+  />
+</div>
+
 
               <div className="grid grid-cols-1 md:grid-cols-3 gap-px bg-orange-500/20 mt-20">
                 <div className="bg-black p-8 hover:bg-zinc-900 transition-all">
