@@ -184,15 +184,15 @@ const DSPCapital = () => {
                   </button>
                 </div>
               </div>
-{/* Bitcoin Performance Chart */}
-<div className="mt-16 max-w-6xl mx-auto">
-  <img 
-    src="/images/bitcoin-returns.png" 
-    alt="Bitcoin Standard Era Return - Total performance comparison chart" 
-    className="w-full h-auto rounded-lg border border-orange-500/20 shadow-2xl"
-  />
-</div>
 
+              {/* Bitcoin Performance Chart */}
+              <div className="mt-16 mb-20 max-w-6xl mx-auto">
+                <img 
+                  src="/images/bitcoin-returns.png" 
+                  alt="Bitcoin Standard Era Return - Total performance comparison chart showing Bitcoin's outperformance" 
+                  className="w-full h-auto rounded-lg border border-orange-500/20 shadow-2xl"
+                />
+              </div>
 
               <div className="grid grid-cols-1 md:grid-cols-3 gap-px bg-orange-500/20 mt-20">
                 <div className="bg-black p-8 hover:bg-zinc-900 transition-all">
@@ -531,7 +531,7 @@ const DSPCapital = () => {
             <div className="w-6 h-6 bg-orange-500 flex items-center justify-center font-bold text-xs">DSP</div>
             <span className="text-lg font-bold tracking-tight">DSP CAPITAL</span>
           </div>
-          <p className="text-gray-400 text-sm font-light">© 2018 DSP Capital. Bitcoin Treasury Management Solutions.</p>
+          <p className="text-gray-400 text-sm font-light">© 2018 DSP Capital.</p>
         </div>
       </footer>
     </div>
